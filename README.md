@@ -20,7 +20,7 @@ sudo dnf install gpg
 1. Type this into the command line: ``` gpg --full-generate-key ```
 2. Select the default - *(1)RSA and RSA*
 3. For the key size, enter 4096
-4. For the expiration date, enter 0 unless you're a target and need to rotate keys. If you would like to set an expiration date
+4. For the expiration date, enter 0 unless you need to rotate keys. If you would like to set an expiration date
 	- Enter a number followed by nothing if you mean X amount of days (e.g. ```5```)
 	- Enter a number followed by <b>w</b> if you mean X amount of weeks (e.g. ```5w```)
 	- Enter a number followed by <b>m</b> if you mean X amount of weeks (e.g. ```5m```)
@@ -94,5 +94,5 @@ That's it. Obviously there are a lot more options and capbilities that weren't m
 - Signing public keys
 - How to securely store your private key
 - Setting up a secure environment to encrypt and decrypt messages in
-- Know your threat landscape and attack surface.
+- Know your threat landscape and attack surface (https://grumpychestnut.medium.com/threat-landscape-vs-attack-surface-a3693d470c59)
 
